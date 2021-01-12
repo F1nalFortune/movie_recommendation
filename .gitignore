@@ -1,0 +1,9 @@
+data(fixed)/
+data/
+catboost_info/
+models/
+
+
+*.DS_Store
+*.icloud
+*.csv
