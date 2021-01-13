@@ -1,9 +1,10 @@
-name: boxoffice
+name: recommender
 channels:
 - defaults
 - pytorch
+- conda-forge
 dependencies:
-- numpy=1.16.4
+- numpy=1.19.5
 - pandas=0.24.2
 - pip=19.1.1
 - python=3.7.3
@@ -11,7 +12,6 @@ dependencies:
 - seaborn=0.9.0
 - notebook=6.0.2
 - scikit-learn=0.21.3
-- cudatoolkit=10.2
 - torchaudio=0.7.2
 - torchvision=0.8.2
 - jupyterlab=3.0.4
@@ -23,14 +23,14 @@ dependencies:
   - tensorflow==2.0.0
   - transformers==4.1.1
   - sentencepiece==0.1.95
-  - ipywidgets=7.6.3
-  - jupyterlab-widgets=1.0.0
-  - widgetsnbextension=3.5.1
-  - pandas=1.2.0
-  - missingno=0.4.2
-  - scikit-learn=0.24.0
-  - nltk=3.5
-  - pandarallel=1.5.1
+  - ipywidgets==7.6.3
+  - jupyterlab-widgets==1.0.0
+  - widgetsnbextension==3.5.1
+  - pandas==1.2.0
+  - missingno==0.4.2
+  - scikit-learn==0.24.0
+  - nltk==3.5
+  - pandarallel==1.5.1
     #POST INSTALL
 #jupyter nbextension enable --py widgetsnbextension
 #jupyter labextension install @jupyter-widgets/jupyterlab-manager
