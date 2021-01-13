@@ -20,7 +20,7 @@ dependencies:
 - pip:
   - black==19.3b0
   - adanet==0.8.0
-  - tensorflow==2.0.0
+  - tensorflow==2.4.0
   - transformers==4.1.1
   - sentencepiece==0.1.95
   - ipywidgets==7.6.3
