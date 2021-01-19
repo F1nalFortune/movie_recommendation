@@ -2,7 +2,7 @@ data(fixed)/
 data/
 catboost_info/
 models/
-
+posters/
 
 *.DS_Store
 *.icloud
